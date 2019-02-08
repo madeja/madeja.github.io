@@ -69,7 +69,11 @@
                   Department of Computers and Informatics<br>
                   Faculty of Electrical Engineering and Informatics<br>
                   Technical University of Košice<br>
-                  <a href="mailto:matej.madeja@tuke.sk">matej.madeja@tuke.sk</a><br>
+                  <noscript>matej.madeja[at]tuke.sk</noscript>
+                  <script>
+                    mail = "matej.madeja" + String.fromCharCode(64) + "tuke.sk";
+                    document.write('<a href="mailto:' + mail + '">' + mail + '</a>');
+                  </script>
                 </p>
               </div>
               <div class="col-sm-4">
